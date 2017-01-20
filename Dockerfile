@@ -1,6 +1,6 @@
 FROM node:boron
 
-MAINTAINER Brian Sipple <brsipple42@gmail.com>
+MAINTAINER Brian Sipple <@Brian_Sipple>
 
 # Update package index and install xvfb + chromium
 RUN apt-get update && apt-get install -y xvfb chromium
