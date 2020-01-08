@@ -1,4 +1,4 @@
-FROM node:boron
+FROM node:lts-stretch
 
 MAINTAINER Brian Sipple <@Brian_Sipple>
 
