@@ -1,6 +1,6 @@
 FROM node:lts-stretch
 
-MAINTAINER Brian Sipple <@Brian_Sipple>
+LABEL maintainer="fabianscheidt@yahoo.de"
 
 # Update package index and install xvfb + chromium
 RUN apt-get update && apt-get install -y xvfb chromium
